@@ -32,7 +32,7 @@ async function testYouTubeJsProxy() {
         console.log(`Video title: ${info.basic_info.title}`);
     }
     catch (err) {
-        console.error("⛔️ Failed to initialize YouTube client.");
+        console.error("⛔️ Failed to get video info.");
         console.error(err);
     }
 }
